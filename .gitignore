@@ -1,3 +1,9 @@
+# Additonal
+models/model1
+models/model2
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
