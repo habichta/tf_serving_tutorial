@@ -25,7 +25,7 @@ x = tf.keras.applications.mobilenet.preprocess_input(
 
 data = json.dumps({"signature_name": "serving_default","instances": x.tolist()})
 headers = {"content-type": "application/json"}
-json_response = requests.post('http://localhost:8501/v1/models/model1/versions/2:predict',data=data, headers=headers)
+json_response = requests.post('http://localhost:8501/v1/models/model1/versions/1:predict',data=data, headers=headers)
 predictions1 = numpy.array(json.loads(json_response.text)["predictions"])
 
 

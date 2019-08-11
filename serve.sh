@@ -4,5 +4,6 @@ docker run -t --rm -p 8501:8501 \
     --model_config_file=/models/models.config \
     --monitoring_config_file=/models/monitoring.config \
     --model_config_file_poll_wait_seconds=5 \
-    --allow_version_labels_for_unavailable_models
+    --allow_version_labels_for_unavailable_models \
+    --rest_api_port=8501
 
