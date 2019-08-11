@@ -7,3 +7,4 @@ Using Tensorflow Serving to deploy ML Models
 
 2) making version_labels request work
 3) Prometheus/ Grafana with local network
+4) gRPC : pip install tensorflow-serving-api
